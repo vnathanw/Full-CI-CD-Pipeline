@@ -4,15 +4,15 @@ A complete creation of CI CD Pipeline using GitHub, Jenkins, Maven, SonarQube, c
 Step 1:
 Set up GitHub:
 
-   Created a repository on GitHub to store your application code.
-   Commit and push your code to the repository.
+    Created a repository on GitHub to store your application code.
+    Commit and push your code to the repository.
 
 Step 2:
 Set up AWS resources:
 
-   Create an EC2 instance (I have used t2.large). 
-   SetUp VPC, a public subnet
-   Created a Secutity Group with Inbound rules for:
+    Create an EC2 instance (I have used t2.large). 
+    SetUp VPC, a public subnet
+    Created a Secutity Group with Inbound rules for:
              Jenkins: Port 8080
              SonarQube: Port 9000
              Docker Port 2375 
@@ -24,9 +24,9 @@ Set up AWS resources:
 Step 3:
 Configure Jenkins:
 
-   Installed and configure Jenkins on an EC2 instance
-   Installed required plugins: Git, Pipeline, AWS, Docker, SonarQube
-   Configured GitHub Webhook for triggering Jenkins
+    Installed and configure Jenkins on an EC2 instance
+    Installed required plugins: Git, Pipeline, AWS, Docker, SonarQube
+    Configured GitHub Webhook for triggering Jenkins
    
 Step 4:
 Written the Jenkinsfile for my Pipieline from the create pipeline
