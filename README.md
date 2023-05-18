@@ -10,7 +10,7 @@ Set up GitHub:
 Step 2:
 Set up AWS resources:
 
-    Create an EC2 instance (I have used t2.large). 
+    Create an EC2 instance. 
     SetUp VPC, a public subnet
     Created a Secutity Group with Inbound rules for:
              Jenkins: Port 8080
